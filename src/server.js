@@ -13,7 +13,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://mern-thinkboard-frontend-embb.onrender.com"],
   })
 );
 app.use(express.json());
